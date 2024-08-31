@@ -6,7 +6,7 @@ This is a portfolio website built using **React**, **Tailwind CSS**, and **TypeS
 
 ![Screenshot](./Screenshot.png)
 
-You can also check out the live demo of the portfolio website [here](https://stoyan-galchev.onrender.com/).
+You can also check out the live demo of the portfolio website [https://stoyan-galchev.onrender.com/].
 
 ## 🌟 Features
 
