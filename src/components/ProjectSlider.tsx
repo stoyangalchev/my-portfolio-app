@@ -110,7 +110,7 @@ const ProjectSlider: React.FC = () => {
                     </p>
                     <div className="technologies">
                       <h3>
-                        {language === "BG" ? "Technologien" : "Technologies"}
+                        {language === "BG" ? "Технологий" : "Technologies"}
                       </h3>
                       <div className="grid grid-cols-6 gap-10 p-4">
                         {project.technologies.map(
