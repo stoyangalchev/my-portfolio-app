@@ -15,7 +15,7 @@ const Contact: React.FC = () => {
         <div className="container mx-auto flex flex-col items-center text-center">
           <div className="mb-8">
             <img
-              src="/me.jpg"
+              src="/src/assets/img/me.jpg"
               alt="Me"
               className="w-48 h-48 rounded-full shadow-lg mx-auto"
             />
