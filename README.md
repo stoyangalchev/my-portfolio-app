@@ -1,25 +1,29 @@
-# Portfolio Webseite
+Adding emojis can make your README more engaging and visually appealing. Below is the updated version of your README with added emojis:
 
-This is a portfolio website built using React, Tailwind CSS, and TypeScript.
+---
 
-## Demo
+# 🚀 Portfolio Website
 
-<img src="./Screenshot.png" alt="Screenshot" width="1080"/>
+This is a portfolio website built using **React**, **Tailwind CSS**, and **TypeScript**.
+
+## 🎉 Demo
+
+![Screenshot](./Screenshot.png)
 
 You can also check out the live demo of the portfolio website [here](https://stoyan-galchev.onrender.com/).
 
-## Features
+## 🌟 Features
 
-- SEO optimized
-- User settings stored in session storage
-- Dark and Light mode available
-- Easy data modification through a single `data.tsx` file
-- Gziped and lazy loaded Data
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
-- Smooth scrolling in each section.Contains animations when scrolling.
-- Uptime Service with colored animation
+- 🔍 **SEO optimized**
+- 💾 **User settings stored in session storage**
+- 🌗 **Dark and Light mode available**
+- 🔧 **Easy data modification through a single `data.tsx` file**
+- ⚡ **Gzipped and lazy-loaded data**
+- 📱 **Compatible with all mobile devices with a beautiful and pleasant user interface**
+- 🌐 **Smooth scrolling in each section, with animations when scrolling**
+- 🟢 **Uptime Service with colored animation**
 
-## Installation
+## 🛠️ Installation
 
 Clone the Repo
 
@@ -27,23 +31,39 @@ Clone the Repo
   git clone <reponame>
 ```
 
-Installation of dependencies
+Install dependencies
 
 ```bash
 npm i or npm install
 ```
 
-Start Server
+Start the server
 
 ```bash
 npm run dev
 ```
 
+## 🧰 Tech Stack
 
-`
-## Tech Stack
+**Client:**  
+- ⚛️ React
+- 🧭 React Router Dom
+- 🎨 Tailwind CSS
+- ⌨️ Typescript
+- 📡 Axios
+- ✨ Prism React Renderer
+- 🎉 React Icons
+- 👀 React Intersection Observer
+- 🔔 React Toastify
+- 💬 React Tooltip
+- 🎈 Reactjs Popup
+- 🚀 Swiper
+- 🗜️ Rollup Plugin Gzip
 
-**Client:** React, React Router Dom, Tailwind CSS, Typescript, Axios, Prism React Renderer, React Icons, React Intersection Observer, React Toastify, React Tooltip, Reactjs Popup, Swiper, Rollup Plugin Gzip
+---
 
+If you find this project helpful or would like to support my work, please ⭐ this Repo!
 
-If you find this project helpful or would like to support my work, you can ⭐ this Repo
+---
+
+This version should add more visual appeal and a bit of fun to your GitHub README!
