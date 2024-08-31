@@ -1,7 +1,3 @@
-Adding emojis can make your README more engaging and visually appealing. Below is the updated version of your README with added emojis:
-
----
-
 # 🚀 Portfolio Website
 
 This is a portfolio website built using **React**, **Tailwind CSS**, and **TypeScript**.
