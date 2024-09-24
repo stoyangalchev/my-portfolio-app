@@ -18,6 +18,7 @@ import rxjsicon from "../../assets/icons/rxjsicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 import fastfurious from "../../assets/img/fast-and-furious.png";
+import weatherapp from "../../assets/img/weather-app.png"
 import webflix from "../../assets/img/webflix.png";
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -89,6 +90,34 @@ export const projectsData = [
     image: fastfurious,
     deploymenturl: "https://fast-and-furious-sigma.vercel.app",
     githuburl: "https://github.com/stoyangalchev/Fast-and-Furious/tree/main",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Weather App",
+    description:
+      "Лесно, удобно за потребителя приложение за времето, което предоставя подробни текущи и прогнозирани данни за времето. Превключвайте лесно между Целзий и Фаренхайт, изследвайте интерактивна карта.",
+    description_EN:
+      "A simple, user-friendly weather application that provides detailed current and forecasted weather data. Easily switch between Celsius and Fahrenheit, explore an interactive map.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "React", icon: reacticon },
+      { name: "Vite", icon: viteicon },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Render", icon: rendericon },
+    ],
+    image: weatherapp,
+    deploymenturl: "https://weather-app-48lb.onrender.com/",
+    githuburl: "https://github.com/stoyangalchev/Weather-App",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
