@@ -1,5 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaDownload } from "react-icons/fa";
+import coffeIcon from "./../../src/assets/img/coffeIcon.png";
 import { useLanguage } from "./../context/language-context";
 import { contactData } from "./../assets/lib/data";
 
@@ -42,6 +43,21 @@ const Contact: React.FC = () => {
               {language === "BG"
                 ? contactData.downloadResume
                 : contactData.downloadResume_EN}
+            </a>
+            <a
+              href="https://www.buymeacoffee.com/stoyan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-110"
+            >
+              <img
+                src={coffeIcon}
+                alt="Buy me a coffee"
+                className="w-12 h-12 mr-2"
+              />
+              <span className="text-3xl text-yellow-600 hover:text-yellow-500 hover:underline">
+                {language === "BG" ? "Купи ми кафе" : "Buy me a coffee"}
+              </span>
             </a>
           </div>
         </div>
