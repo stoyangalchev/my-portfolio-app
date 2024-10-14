@@ -10,6 +10,7 @@ import angularicon from "../../assets/icons/angularicon.svg";
 import mysqlicon from "../../assets/icons/mysqlicon.svg";
 import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import viteicon from "../../assets/icons/viteicon.svg";
+import reduxicon from "../../assets/icons/reduxicon.svg";
 import mongodbicon from "../../assets/icons/mongoicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import giticon from "../../assets/icons/giticon.svg";
@@ -256,10 +257,10 @@ export const skillsDataDesign = [
     skillsTitle: "Tech",
     skills: [
       {
-        title: "Postman",
-        hash: "#Postman",
-        icon: postmanicon,
-        color: "#F24E1E",
+        title: "Docker",
+        hash: "#Docker",
+        icon: [dockericon, dockericonwhite],
+        color: ["#000000", "#fafcfc"],
       },
       {
         title: "Vs Code",
@@ -280,16 +281,16 @@ export const skillsDataDesign = [
         color: "#1eebcc",
       },
       {
+        title: "Redux",
+        hash: "#Redux",
+        icon: reduxicon,
+        color: "#BD34FE",
+      },
+      {
         title: "API",
         hash: "#API",
         icon: apiicon,
         color: "#f23405",
-      },
-      {
-        title: "RXJS",
-        hash: "#RXJS",
-        icon: rxjsicon,
-        color: "#f00592",
       },
       {
         title: "JWT & Bcrypt",
@@ -298,16 +299,23 @@ export const skillsDataDesign = [
         color: "#BD34FE",
       },
       {
+        title: "RXJS",
+        hash: "#RXJS",
+        icon: rxjsicon,
+        color: "#f00592",
+      },
+
+      {
         title: "Vercel",
         hash: "#Vercel",
         icon: [vercelicon, vercelwhiteicon],
         color: ["#000000", "#fafcfc"],
       },
       {
-        title: "Docker",
-        hash: "#Docker",
-        icon: [dockericon, dockericonwhite],
-        color: "#49b2df",
+        title: "Postman",
+        hash: "#Postman",
+        icon: postmanicon,
+        color: "#F24E1E",
       },
     ],
   },
