@@ -19,7 +19,8 @@ import rxjsicon from "../../assets/icons/rxjsicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 import fastfurious from "../../assets/img/fast-and-furious.png";
-import weatherapp from "../../assets/img/weather-app.png"
+import pizzashop from "../../assets/img/pizzashop.png";
+import toparborist from "../../assets/img/toparborist.png";
 import webflix from "../../assets/img/webflix.png";
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -101,11 +102,11 @@ export const projectsData = [
     },
   },
   {
-    title: "Weather App",
+    title: "Pizza Shop",
     description:
-      "Лесно, удобно за потребителя приложение за времето, което предоставя подробни текущи и прогнозирани данни за времето. Превключвайте лесно между Целзий и Фаренхайт, изследвайте интерактивна карта.",
+      "Приложение за поръчки на пица с удобен интерфейс, който предлага бързо и лесно добавяне на пици към кошницата, избор на размер и добавки, както и възможност за поръчка и админ панел за контрол. Подгответе се за вкусни пици с Pizza Shop!",
     description_EN:
-      "A simple, user-friendly weather application that provides detailed current and forecasted weather data. Easily switch between Celsius and Fahrenheit, explore an interactive map.",
+      "Pizza ordering app with a user-friendly interface that offers quick and easy adding of pizzas to the cart, selection of size and toppings, as well as the ability to order and an admin panel for control. Get ready for delicious pizzas with Pizza Shop!",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -115,10 +116,43 @@ export const projectsData = [
       { name: "Vite", icon: viteicon },
       { name: "Node.js", icon: nodejsicon },
       { name: "Render", icon: rendericon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "JWT & Bcrypt ", icon: jwticon },
+      { name: "Postman", icon: postmanicon },
+      { name: "Redux", icon: reduxicon },
     ],
-    image: weatherapp,
-    deploymenturl: "https://weather-app-48lb.onrender.com/",
-    githuburl: "https://github.com/stoyangalchev/Weather-App",
+    image: pizzashop,
+    deploymenturl: "https://pizzashop-one.vercel.app/",
+    githuburl: "https://github.com/stoyangalchev/PizzaShop",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Top Arborist",
+    description:
+      "Професионален уебсайт на мой клиент за арбористи, който предлага услуги за грижа за дървета, ремонт на дървета и консултации. Създаден с цел да предостави информация за услугите и да улесни клиентите в търсенето на професионални арбористи.",
+    description_EN:
+      "A professional website for my arborist client who offers tree care, tree repair, and consulting services. Created to provide information about the services and make it easier for clients to find professional arborists.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "Vite", icon: viteicon },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "React-Bootstrap", icon: reacticon },
+      
+    ],
+    image: toparborist,
+    deploymenturl: "https://toparborist.com/",
+    githuburl: "https://github.com/stoyangalchev/Arborist",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
