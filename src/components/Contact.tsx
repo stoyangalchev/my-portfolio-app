@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
               </span>
             </p>
             <a
-              href="/Stoyan Resume.pdf"
+              href="/Resume.pdf"
               download
               className="text-2xl text-yellow-300 hover:text-yellow-500 hover:underline transition duration-300 ease-in-out transform hover:scale-110 flex items-center justify-center"
             >
