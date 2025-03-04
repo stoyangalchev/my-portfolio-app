@@ -22,7 +22,7 @@ import fastfurious from "../../assets/img/fast-and-furious.png";
 import pizzashop from "../../assets/img/pizzashop.png";
 import toparborist from "../../assets/img/toparborist.png";
 import webflix from "../../assets/img/webflix.png";
-import profilepicture from "../img/me2.webp";
+import profilepicture from "../img/me2.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
